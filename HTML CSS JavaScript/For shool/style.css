@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+    width: 100%;
+    height: 20vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+}
+
+ul{
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ul li{
+    /* height: 250px;
+    width: 250px; */
+    /* background-color: blanchedalmond; */
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 32px;
+    padding: 5rem;
+    background-color: aquamarine;
+
+    height: 220px;
+    width: 300px;
+
+    border-radius: 10px;
+}
+
+ul li 
